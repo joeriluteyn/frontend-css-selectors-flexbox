@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F3D9;
+    font-family: Tahoma, sans-serif;
+    color: #030027;
+    margin: 0px;
+}
+
+header {
+    background-color: #030027;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+
+}
+
+header div {
+    font-family: "Bauhaus 93";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-right: 40px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+article p {
+    background-color: #C16E70;
+    max-width: 280px;
+    min-height: 350px;
+    flex-grow: 1;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}

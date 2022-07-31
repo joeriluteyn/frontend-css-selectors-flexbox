@@ -1,0 +1,55 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+
+/* Schrijf hier  jouw CSS! */
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.three ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+}
+
+.four form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.five {
+    display: flex;
+    flex-basis: 1200px;
+    flex-wrap: wrap;
+}
+
+.five article {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 350px;
+}
